@@ -22,6 +22,11 @@ header.black {
 
 .header--logo img {
     height: 100%;
+    transition: all ease 0.3s;
+}
+
+.header--logo img:hover {
+    opacity: 70%;
 }
 
 .header--user {
